@@ -1,0 +1,126 @@
+
+
+body{
+  background-image: url('/images/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+		margin:0;
+}
+
+
+
+.logoSpan {
+	font-size: small;
+	
+}
+
+
+
+	
+.no-margin-bottom {
+	margin-bottom: 0rem;
+}
+
+.jumbotron-bg {
+	background-color: lightsteelblue;
+}
+
+.acc-text{
+	color:#f59678;
+}
+
+
+
+
+.showcase {
+	background-image: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+ /*  animations */
+
+ #slideleft {
+    animation-duration: 2s;
+    animation-name: slideleft;
+  }
+
+  #slidetop {
+    animation-duration: 2s;
+	animation-name: slidetop;
+	animation-delay: 1;
+  }
+
+  #slideright {
+    animation-duration: 2s;
+    animation-name: slideright;
+  }
+
+
+  @keyframes slideright {
+    from {
+      margin-right: 250%;
+      width: 300%; 
+    }
+
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
+
+  @keyframes slideleft {
+    from {
+      margin-left: 250%;
+      width: 300%; 
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @keyframes slidetop {
+    from {
+      margin-top: 250%;
+      width: 300%; 
+    }
+
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+  }
+
+.displayabovecarousel{
+  z-index: 10;
+}
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
